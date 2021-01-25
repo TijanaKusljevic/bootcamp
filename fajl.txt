@@ -1,0 +1,116 @@
+    1  pwd
+    2  ll
+    3  cd Users/
+    4  ls
+    5  cd Tijana
+    6  ls
+    7  cd Desktop/
+    8  ls
+    9  cd ../../..
+   10  pwd
+   11  cd Users
+   12  ls
+   13  cd Tijana
+   14  cd Desktop/
+   15  mkdir git
+   16  cd git
+   17  touch fajl.txt
+   18  nano fajl.txt
+   19  cat fajl.txt
+   20  git init
+   21  git config --global user.name "TijanaKusljevic"
+   22  git config --global user.email "kusljevict@gmail.com"
+   23  git status
+   24  git add fajl.txt
+   25  git status
+   26  git add .
+   27  git status
+   28  git commit -m "Pokazni komit"
+   29  cd ..
+   30  cd git
+   31  cd ..
+   32  git clone https://github.com/TijanaKusljevic/vezba.git
+   33  cd vezba
+   34  ls -l
+   35  ll
+   36  ls 
+   37  ll
+   38  ls -a
+   39  cd ..
+   40  cd git
+   41  git push https://github.com/TijanaKusljevic/vezba.git
+   42  git push --set-upstream https://github.com/TijanaKusljevic/vezba.git master 
+   43  histroy
+   44  history
+   45   cd ..
+   46  cd vezba
+   47  git pull
+   48  ls -l
+   49  git status
+   50  git branch
+   51  git checkout -b novaGrana
+   52  git status
+   53  touch noviFajl
+   54  git add .
+   55  git commit -m "Komit na novoj grani"
+   56  git push --set-upstream origin novaGrana
+   57  git checkout master
+   58  git status
+   59  git merge novaGrana
+   60  git push
+   61  git reset --hard
+   62  git reset --hard
+   63  git push
+   64  exit
+   65  pwd
+   66  ls
+   67  ls -l
+   68  cd Users
+   69  pwd
+   70  ls -l
+   71  cd Tijana
+   72  cd Desktop
+   73  ls -l
+   74  cd ..
+   75  cd ../..
+   76  mkdir test123
+   77  ls -l
+   78  cd test123
+   79  touch test.txt
+   80  nano test.txt
+   81  cat test.txt
+   82  ls
+   83  man ls
+   84  man -f ls
+   85  history
+   86  history > istorija.txt
+   87  ls --help
+   88  rm test.txt
+   89  mkdir dir2
+   90  rmdir dir2
+   91  cat istorija.txt
+   92  tail istorija.txt
+   93  tail -n 3 istorija.txt
+   94  head istorija.txt
+   95  head -n 3 istorija.txt
+   96  date
+   97  time
+   98  cal
+   99  history > istorija.txt
+  100  exit
+  101  ls 'l
+
+
+ls -l
+  102  ls -l
+  103  cd Users
+  104  ls -l
+  105  cd Tijana
+  106  ls -l
+  107  cd Desktop
+  108  ls -l
+  109  mkdir novi
+  110  mkdir novi123
+  111  cd novi123
+  112  touch fajl.txt
+  113  history > fajl.txt
